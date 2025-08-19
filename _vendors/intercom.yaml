@@ -1,9 +1,0 @@
----
-base_pricing: $29
-name: Intercom
-percent_increase: 355%
-pricing_source:
-- https://www.intercom.com/pricing
-sso_pricing: $132
-updated_at: 2024-08-26
-vendor_url: https://www.intercom.com
