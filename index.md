@@ -6,23 +6,21 @@
 <summary>
 Why does this exist?
 </summary>
-Single sign-on (SSO) is a mechanism for outsourcing the authentication for your website (or other product) to a third party identity provider, such as Google, Okta, Entra ID (Azure AD), PingFederate, etc.
+The SSO Wall of Shame showed the problem: too many vendors lock SSO behind punitive “enterprise” paywalls, discouraging adoption of a critical security control. That naming-and-shaming has helped — public pressure has nudged several companies to make SSO more accessible.
 
-In this context, SSO refers to a SaaS or similar vendor allowing a business client to manage user accounts via the client's own identity provider, without having to rely on the vendor to provide strong authentication with audit logs, and with the ability to create and delete user accounts centrally, for all users, across all software in use by that client.
+But security shouldn’t just be about avoiding shame. It should also be about celebrating the companies that get it right.
 
-For organizations with more than a handful of employees, this feature is critical for IT and Security teams to be able to effectively manage user accounts across dozens or hundreds of vendors, many of which don't support features like TOTP 2FA or U2F. In the event that an employee leaves the company, it allows the IT team to immediately disable their access to all applications, rather than logging into 100 different user management portals.
+The SSO Wall of Fame exists to highlight vendors who treat SSO as the baseline security feature it is — whether by including it in all paid plans, offering it at a fair add-on price, or keeping the gap between non-SSO and SSO tiers reasonable.
 
-In short: SSO is a core security requirement for any company with more than five employees.
+By shining a light on good practice, we aim to:
 
-SaaS vendors appear not to have received this message, however. SSO is often only available as part of "Enterprise" pricing, which assumes either a huge number of users (minimum seat count) or is force-bundled with other "Enterprise" features which may have no value to the company using the software.
+Encourage more vendors to follow suit,
 
-If companies claim to "take your security seriously", then SSO should be available as a feature that is either:
+Give buyers a way to reward responsible vendors with their business, and
 
-1. part of the core product, or
-1. an optional paid extra for a reasonable delta, or
-1. attached to a price tier, but with a reasonably small gap between the non-SSO tier and SSO tiers.
+Move the industry toward a future where secure by default is the norm, not the exception.
 
-Many vendors charge 2x, 3x, or 4x the base product pricing for access to SSO, which disincentivizes its use and encourages poor security practices.
+In short: shame works, but fame is better.
 </details>
 
 {% assign all = site.vendors | sort: "name" %}
