@@ -1,13 +1,12 @@
-title: The SSO Wall of Shame
+title: The SSO Wall of Fame
 description: >-
-  A list of vendors that treat single sign-on as a luxury feature, not a core
-  security requirement.
+  A list of vendors that treat single sign-on as a free feature, and take security seriously.
 
 url: https://sso.tax
 
 # Not included by default but throws a Liquid exception if not present;
 # error only thrown in GHA, not during local builds
-repository: robchahin/sso-wall-of-shame
+repository: tomsecurity/sso-wall-of-fame
 
 theme: jekyll-theme-cayman
 kramdown:
